@@ -10,8 +10,8 @@ import { WeatherResponseProps, getWeatherByCityService } from '@services/getWeat
 import { Loading } from '@components/Loading';
 import { NextDays } from '@components/NextDays';
 import { SelectList } from '@components/SelectList';
-import { WeatherToday } from '@components/WeatherToday';
 import { WeatherDetails } from '@components/WeatherDetails';
+import { WeatherToday } from '@components/WeatherToday';
 
 export function Dashboard() {
   const [search, setSearch] = useState('');
