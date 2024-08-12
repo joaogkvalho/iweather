@@ -1,11 +1,11 @@
-import dayjs from "dayjs";
-import { api } from "./api";
 import { getNextDays } from "@utils/getNextDays";
 import { WeatherIconsKeysProps, weatherIcons } from "@utils/weatherIcons";
+import dayjs from "dayjs";
+import { api } from "./api";
 
 import { DayProps } from "@components/Day";
-import { WeatherTodayProps } from "@components/WeatherToday";
 import { WeatherDetailsProps } from "@components/WeatherDetails";
+import { WeatherTodayProps } from "@components/WeatherToday";
 
 export interface WeatherAPIResponseProps {
   list: {
