@@ -1,8 +1,8 @@
+import { mockWeatherAPIResponse } from "@__tests__/mocks/api/mockWeatherAPIResponse"
 import { saveStorageCity } from "@libs/asyncStorage/cityStorage"
 import { api } from "@services/api"
 import { Routes } from "."
-import { mockWeatherAPIResponse } from "../../mocks/api/mockWeatherAPIResponse"
-import { act, render, screen, waitFor } from "../../utils/customRender"
+import { act, render, screen, waitFor } from "../../__tests__/utils/customRender"
 
 describe("Routes", () => {
     it("should be render search screen when not city selected", async () => {
