@@ -1,0 +1,15 @@
+{
+  "cli": {
+    "version": ">= 10.2.3"
+  },
+  "build": {
+    "preview": {
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_WEATHER_APP_ID": "05f151d6a407cce4dadd19db51139747"
+      }
+    }
+  }
+}
