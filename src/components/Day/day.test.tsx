@@ -16,6 +16,6 @@ describe("Component: Day", () => {
             />
         )
 
-        expect(screen.getByText('18/07')).toBeTruthy()
+        expect(screen.getByText('20/07')).toBeTruthy()
     })
 })
